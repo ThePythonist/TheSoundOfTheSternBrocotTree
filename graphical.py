@@ -8,7 +8,7 @@ pygame.init()
 
 zero = (0, 1)
 infinity = (1, 0)
-sbt = stern_brocot_tree(mediant(left, right), zero, infinity)
+sbt = stern_brocot_tree(mediant(zero, infinity), zero, infinity)
 
 rplus = sbt.traverse()
 
